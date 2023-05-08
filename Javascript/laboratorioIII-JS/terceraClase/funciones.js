@@ -40,3 +40,13 @@ let sumar=function(a,b){
 }
 resultado=sumar(3,5)
 console.log(resultado);
+
+let respuesta= sumarTodo(3,6,15,10,9);
+console.log(respuesta)
+function sumarTodo(){
+    let suma=0;
+    for(let i=0; i < arguments.length; i++){
+        suma += arguments[i]
+    }
+    return suma;
+}
