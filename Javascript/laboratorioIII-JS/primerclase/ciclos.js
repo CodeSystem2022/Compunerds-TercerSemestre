@@ -37,4 +37,3 @@ for(let contando=0;contando <=10;contando++){
     console.log(contando)
 }
 console.log("Termina el ciclo")
-//console.log("Termina el ciclo")
