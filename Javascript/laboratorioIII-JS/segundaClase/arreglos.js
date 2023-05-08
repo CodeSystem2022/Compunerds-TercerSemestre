@@ -20,3 +20,16 @@ console.log(autos[1])
 //agregamos elementos al array
 autos.push("Jeep")
 console.log(autos)
+
+//Otras formas de agregar elementos al arrays
+autos[autos.length]="Porsche";
+
+//Tercera forma de agregar, esta opcion tiene una posible complicacion al utilizarse, ya que puede modificar un valor existente
+autos[3]="Renault";
+console.log(autos)
+
+//como preguntar si es un array 
+console.log(Array.isArray(autos)) //devuelve un array
+
+//Preguntamos si la variable es una instancia de la clase Array
+console.log(autos instanceof Array);
