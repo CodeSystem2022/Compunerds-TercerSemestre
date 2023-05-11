@@ -29,3 +29,8 @@ for(propiedad in persona){
     console.log(propiedad);
     console.log(persona[propiedad])
 }
+persona.apellido="Betancud";//Cambiamos dinamicamente un valor del objeto
+
+persona.apellida="Betancud"; //si cometemos el error de asignar una nueva propiedad en lugar de modificar un valor, podemos eliminarlo
+delete persona.apellida; //eliminamos el error
+console.log(persona)
