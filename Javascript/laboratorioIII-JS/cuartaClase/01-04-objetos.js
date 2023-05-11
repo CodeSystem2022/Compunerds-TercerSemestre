@@ -34,3 +34,17 @@ persona.apellido="Betancud";//Cambiamos dinamicamente un valor del objeto
 persona.apellida="Betancud"; //si cometemos el error de asignar una nueva propiedad en lugar de modificar un valor, podemos eliminarlo
 delete persona.apellida; //eliminamos el error
 console.log(persona)
+
+
+//Distintas formas de imprimir un objeto
+//Numero 1: las mas sencilla: concatenar cada valor de cada propiedad
+console.log(persona.nombre+", "+persona.apellido);
+
+//Numero 2:a traves del ciclo for in
+for(nombrePropiedad in persona){
+    console.log(persona[nombrePropiedad]);
+}
+
+//Numero 3: la funcion Object.values()
+let personaArray= Object.values(persona)
+console.log(personaArray);
