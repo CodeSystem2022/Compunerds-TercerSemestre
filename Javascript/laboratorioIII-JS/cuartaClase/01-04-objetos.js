@@ -11,10 +11,14 @@ let persona={
     email: "carlossuarez@gmail.com",
     nombreCompleto: function(){//metodo o funcion en js
         return "Su nombre es: "+this.nombre+" y su apellido:"+this.apellido;
+    },
+    get nombreEdad(){//este es el metodo get
+        return "El nombre es: "+this.nombre+" edad:"+ this.edad;
     }
 }
 console.log("Su nombre es: "+persona.nombre,"y su apellido:"+persona.apellido)//accedemos a la porcion en memoria donde se guardan estas propiedades
 console.log(persona.nombreCompleto())
+console.log(persona.nombreEdad)
 
 let persona2= new Object();//Debe crear un nuevo objeto en memoria
 persona2.nombre="Juan";
