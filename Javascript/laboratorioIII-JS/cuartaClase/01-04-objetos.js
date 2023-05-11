@@ -48,3 +48,6 @@ for(nombrePropiedad in persona){
 //Numero 3: la funcion Object.values()
 let personaArray= Object.values(persona)
 console.log(personaArray);
+
+//Numero 4: Utilizaremos el metodo JSON.stringify()
+let personaString=JSON.stringify(persona)
