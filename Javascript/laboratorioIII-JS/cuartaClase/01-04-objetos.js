@@ -9,6 +9,9 @@ let persona={
     apellido:"Suarez",
     edad:35,
     email: "carlossuarez@gmail.com",
+    nombreCompleto: function(){//metodo o funcion en js
+        return "Su nombre es: "+this.nombre+" y su apellido:"+this.apellido;
+    }
 }
 console.log("Su nombre es: "+persona.nombre,"y su apellido:"+persona.apellido)//accedemos a la porcion en memoria donde se guardan estas propiedades
-
+console.log(persona.nombreCompleto())
