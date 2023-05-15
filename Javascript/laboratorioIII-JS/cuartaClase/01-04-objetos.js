@@ -18,10 +18,12 @@ let persona = {
     //este es el metodo get
     return "El nombre es: " + this.nombre + " edad:" + this.edad;
   },
-  get lang() {//obtenemos el valor del idioma
+  get lang() {
+    //obtenemos el valor del idioma
     return this.idioma.toUpperCase();
   },
-  set lang(valor) {//modificamos el valor de el idioma
+  set lang(valor) {
+    //modificamos el valor de el idioma
     this.idioma = valor.toUpperCase();
   },
 };
@@ -69,70 +71,88 @@ let personaString = JSON.stringify(persona);
 
 console.log("Comenzamos con el metodo get para idiomas");
 console.log(persona.lang);
-persona.lang="en";
+persona.lang = "en";
 console.log(persona.lang);
 
-function Persona3(nombre,apellido,email){//constructor
-    this.nombre=nombre;
-    this.apellido=apellido;
-    this.email=email;
-    this.nombreCompleto= function(){
-        return "Su nombre completo es "+ this.nombre +" "+ this.apellido;
-    }
+function Persona3(nombre, apellido, email) {
+  //constructor
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.email = email;
+  this.nombreCompleto = function () {
+    return "Su nombre completo es " + this.nombre + " " + this.apellido;
+  };
 }
-let padre=new Persona3("Leo","Lopez","leoL@gmail.com");
-padre.nombre="Luis"; //modificamos los datos de la variable nombre
-padre.telefono="2920456798";
+let padre = new Persona3("Leo", "Lopez", "leoL@gmail.com");
+padre.nombre = "Luis"; //modificamos los datos de la variable nombre
+padre.telefono = "2920456798";
 console.log(padre);
-let madre= new Persona3("Carolina","Desar","desar@gmail.com");
+let madre = new Persona3("Carolina", "Desar", "desar@gmail.com");
 console.log(madre);
 console.log(madre.nombreCompleto());
-let hijo= new Persona3("Alaska","Bras","bras@gmail.com");
+let hijo = new Persona3("Alaska", "Bras", "bras@gmail.com");
 console.log(hijo);
 
 //Diferentes formas de crear un OBJETOS
 //caso objeto 1
-let miObjeto= new Object();///Esta es una opcion formal
+let miObjeto = new Object(); ///Esta es una opcion formal
 //caso objeto 2
-let miObjeto2= {};//Esta opcion es breve y recomendada
- 
+let miObjeto2 = {}; //Esta opcion es breve y recomendada
+
 //caso STRING
 //caso string 1
-let miCadena1=new String("Hola");//Sintaxis formal
+let miCadena1 = new String("Hola"); //Sintaxis formal
 //caso string 2
-let miCadena2="Hola";//Sintaxis simplificada y recomendada
+let miCadena2 = "Hola"; //Sintaxis simplificada y recomendada
 
-//caso con NUMEROS 
+//caso con NUMEROS
 //caso con numeros 1
-let miNumero1=new Number(10);//Sintaxis formal
+let miNumero1 = new Number(10); //Sintaxis formal
 //caso con numeros 2
-let miNumero2=10;//Sintaxis simplificada y recomendada
+let miNumero2 = 10; //Sintaxis simplificada y recomendada
 
 //caso con BOOLEANOS
 //caso boolean 1
-let miBoolean1=new Boolean(true);//Sintaxis formal
+let miBoolean1 = new Boolean(true); //Sintaxis formal
 //caso boolean 2
-let miBoolean2=true;//Sintaxis simplificada y recomendada
+let miBoolean2 = true; //Sintaxis simplificada y recomendada
 
 //caso ARRAYS
 //caso array 1
-let miArreglo= new Array(10);//Sintaxis formal
+let miArreglo = new Array(10); //Sintaxis formal
 //caso array 2
-let miArreglo2=[10];//Sintaxis simplificada y recomendada
+let miArreglo2 = [10]; //Sintaxis simplificada y recomendada
 
 //caso FUNCIONES
 //caso function 1
-let miFuncion1=new function(){
-    console.log("Hola soy la funcion 1");
-}
+let miFuncion1 = new (function () {
+  console.log("Hola soy la funcion 1");
+})();
 //caso function 2
-let miFuncion2=function(){
-    console.log("Hola soy la funcion 2");
-}
+let miFuncion2 = function () {
+  console.log("Hola soy la funcion 2");
+};
 miFuncion2();
 
 //Uso de prototype
-Persona3.prototype.telefono= "9202056347"
-console.log(padre.telefono, madre.telefono, hijo.telefono);//como muestra la terminal asignamos una nueva propiedad con un valor asignado por default
-madre.telefono= "920205669";//modificamos el valor anteriormente asignado
+Persona3.prototype.telefono = "9202056347";
+console.log(padre.telefono, madre.telefono, hijo.telefono); //como muestra la terminal asignamos una nueva propiedad con un valor asignado por default
+madre.telefono = "920205669"; //modificamos el valor anteriormente asignado
 console.log(madre.telefono);
+
+//Uso de call
+let persona4 = {
+  nombre: "Carlos",
+  apellido: "Suarez",
+  nombreCompleto2: function (titulo, telefono) {
+    return titulo + ": " + this.nombre + " " + this.apellido + " " + telefono;
+  },
+};
+
+let persona5 = {
+  nombre: "Dario",
+  apellido: "Gomez",
+};
+
+console.log(persona4.nombreCompleto2("Lic.", "2920341575"));
+console.log(persona4.nombreCompleto2.call(persona5, "Doc.", "2920348566"));
