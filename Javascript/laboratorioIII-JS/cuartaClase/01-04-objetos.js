@@ -71,3 +71,11 @@ console.log("Comenzamos con el metodo get para idiomas");
 console.log(persona.lang);
 persona.lang="en";
 console.log(persona.lang);
+
+function Persona3(nombre,apellido,email){//constructor
+    this.nombre=nombre;
+    this.apellido=apellido;
+    this.email=email;
+}
+let padre=new Persona3("Leo","Lopez","leoL@gmail.com");
+console.log(padre);
