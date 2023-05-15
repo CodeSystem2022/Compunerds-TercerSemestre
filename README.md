@@ -1,4 +1,4 @@
-<a href="https://i.imgur.com/9nNx7RN.png"><img src="https://i.imgur.com/9nNx7RN.png" title="https://i.imgur.com/9nNx7RN.png" /></a>
+<a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWQyOGQ3ODcyYTYyZWJmMGEwNmY2NzJjNTBhYTZhZTNhZGRiZjY2NCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VWtoESH9KJWivZPWeN/giphy-downsized-large.gif"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWQyOGQ3ODcyYTYyZWJmMGEwNmY2NzJjNTBhYTZhZTNhZGRiZjY2NCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VWtoESH9KJWivZPWeN/giphy-downsized-large.gif" title="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWQyOGQ3ODcyYTYyZWJmMGEwNmY2NzJjNTBhYTZhZTNhZGRiZjY2NCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/VWtoESH9KJWivZPWeN/giphy-downsized-large.gif" /></a>
 <h1 align="center">Tecnicatura Universitaria en Programacion</h1>
 <h2 align="center">Este Proyecto consta de dos materias: Programacion III y Laboratorio III</h2>
 <h3 align="center">Trabajamos en los siguientes lenguajes: Java, Javascript y Python</h3>
