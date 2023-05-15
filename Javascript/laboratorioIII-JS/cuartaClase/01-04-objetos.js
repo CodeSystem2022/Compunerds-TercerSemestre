@@ -76,6 +76,54 @@ function Persona3(nombre,apellido,email){//constructor
     this.nombre=nombre;
     this.apellido=apellido;
     this.email=email;
+    this.nombreCompleto= function(){
+        return "Su nombre completo es "+ this.nombre +" "+ this.apellido;
+    }
 }
 let padre=new Persona3("Leo","Lopez","leoL@gmail.com");
+padre.nombre="Luis"; //modificamos los datos de la variable nombre
 console.log(padre);
+let madre= new Persona3("Carolina","Desar","desar@gmail.com");
+console.log(madre);
+console.log(madre.nombreCompleto());
+
+//Diferentes formas de crear un OBJETOS
+//caso objeto 1
+let miObjeto= new Object();///Esta es una opcion formal
+//caso objeto 2
+let miObjeto2= {};//Esta opcion es breve y recomendada
+ 
+//caso STRING
+//caso string 1
+let miCadena1=new String("Hola");//Sintaxis formal
+//caso string 2
+let miCadena2="Hola";//Sintaxis simplificada y recomendada
+
+//caso con NUMEROS 
+//caso con numeros 1
+let miNumero1=new Number(10);//Sintaxis formal
+//caso con numeros 2
+let miNumero2=10;//Sintaxis simplificada y recomendada
+
+//caso con BOOLEANOS
+//caso boolean 1
+let miBoolean1=new Boolean(true);//Sintaxis formal
+//caso boolean 2
+let miBoolean2=true;//Sintaxis simplificada y recomendada
+
+//caso ARRAYS
+//caso array 1
+let miArreglo= new Array(10);//Sintaxis formal
+//caso array 2
+let miArreglo2=[10];//Sintaxis simplificada y recomendada
+
+//caso FUNCIONES
+//caso function 1
+let miFuncion1=new function(){
+    console.log("Hola soy la funcion 1");
+}
+//caso function 2
+let miFuncion2=function(){
+    console.log("Hola soy la funcion 2");
+}
+miFuncion2();
