@@ -8,12 +8,16 @@ let persona={
     nombre: "Carlos",
     apellido:"Suarez",
     edad:35,
+    idioma:'ES',
     email: "carlossuarez@gmail.com",
     nombreCompleto: function(){//metodo o funcion en js
         return "Su nombre es: "+this.nombre+" y su apellido:"+this.apellido;
     },
     get nombreEdad(){//este es el metodo get
         return "El nombre es: "+this.nombre+" edad:"+ this.edad;
+    },
+    get lang(){
+        return this.idioma.toUpperCase();
     }
 }
 console.log("Su nombre es: "+persona.nombre,"y su apellido:"+persona.apellido)//accedemos a la porcion en memoria donde se guardan estas propiedades
@@ -55,3 +59,6 @@ console.log(personaArray);
 
 //Numero 4: Utilizaremos el metodo JSON.stringify()
 let personaString=JSON.stringify(persona)
+
+console.log("Comenzamos con el metodo get para idiomas");
+console.log(persona.lang);
