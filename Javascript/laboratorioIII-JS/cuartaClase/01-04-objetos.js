@@ -69,3 +69,5 @@ let personaString = JSON.stringify(persona);
 
 console.log("Comenzamos con el metodo get para idiomas");
 console.log(persona.lang);
+persona.lang="en";
+console.log(persona.lang);
