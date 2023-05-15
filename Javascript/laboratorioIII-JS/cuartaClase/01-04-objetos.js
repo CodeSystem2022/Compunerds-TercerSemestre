@@ -82,10 +82,13 @@ function Persona3(nombre,apellido,email){//constructor
 }
 let padre=new Persona3("Leo","Lopez","leoL@gmail.com");
 padre.nombre="Luis"; //modificamos los datos de la variable nombre
+padre.telefono="2920456798";
 console.log(padre);
 let madre= new Persona3("Carolina","Desar","desar@gmail.com");
 console.log(madre);
 console.log(madre.nombreCompleto());
+let hijo= new Persona3("Alaska","Bras","bras@gmail.com");
+console.log(hijo);
 
 //Diferentes formas de crear un OBJETOS
 //caso objeto 1
@@ -127,3 +130,9 @@ let miFuncion2=function(){
     console.log("Hola soy la funcion 2");
 }
 miFuncion2();
+
+//Uso de prototype
+Persona3.prototype.telefono= "9202056347"
+console.log(padre.telefono, madre.telefono, hijo.telefono);//como muestra la terminal asignamos una nueva propiedad con un valor asignado por default
+madre.telefono= "920205669";//modificamos el valor anteriormente asignado
+console.log(madre.telefono);
