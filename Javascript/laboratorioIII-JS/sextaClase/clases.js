@@ -1,12 +1,45 @@
-class Persona{
-    constructor(nombre, apellido){
-        this._nombre = nombre;
-        this._apellido = apellido;
-    }
-    get nombre(){
-        return this._nombre;
-    }
+class Persona {
+  //clase padre
+  constructor(nombre, apellido) {
+    this._nombre = nombre;
+    this._apellido = apellido;
+  }
+  get nombre() {
+    return this._nombre;
+  }
+  set nombre(nombre) {
+    this._nombre = nombre;
+  }
+  get apellido() {
+    return this._apellido;
+  }
+  set apellido(apellido) {
+    this._apellido = apellido;
+  }
 }
 
-let persona1= new Persona("Martin", "Perez");
+class Empleado extends Persona {
+  //clase hija
+  constructor(nombre,apellido,departamento) {
+    super(nombre,apellido);//heredamos los campos de la clase padre
+    this._departamento = departamento;
+  }
+
+  get departamento() {
+    return this._departamento;
+  }
+
+  set departamento(departamento) {
+    this._departamento = departamento;
+  }
+}
+
+let persona1 = new Persona("Martin", "Perez");
 console.log(persona1.nombre);
+console.log(persona1.apellido);
+persona1.nombre = "Juan";
+persona1.apellido = "Mar";
+console.log(persona1.nombre);
+console.log(persona1.apellido);
+let persona2= new Empleado("Marcelo","Gimenez","Sistemas")
+console.log(persona2)
