@@ -20,7 +20,8 @@ class Persona {
 
 class Empleado extends Persona {
   //clase hija
-  constructor(departamento) {
+  constructor(nombre,apellido,departamento) {
+    super(nombre,apellido);//heredamos los campos de la clase padre
     this._departamento = departamento;
   }
 
@@ -40,3 +41,5 @@ persona1.nombre = "Juan";
 persona1.apellido = "Mar";
 console.log(persona1.nombre);
 console.log(persona1.apellido);
+let persona2= new Empleado("Marcelo","Gimenez","Sistemas")
+console.log(persona2)
