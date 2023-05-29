@@ -5,3 +5,12 @@
 
 <br><br/>
 <a href="https://i.imgur.com/liOfcEv.mp4"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjgzNDNmNDdhNDUyYmMyYTk3MDg5YTNmOTljZmM4NWViNzljYmQ4ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/bnCxII7gN2R2NfBx14/giphy.gif" width="1920" height="200" title="https://i.imgur.com/liOfcEv.mp4" /></a>
+
+
+
+<h2> 🗓️ Organización por Sprint: </h2>
+
+| **Sprint** | **Scrum Asignado** 👨‍💻 |
+| ------------- |:-------------:|
+| Semana 8 | *---------* |
+<br>
