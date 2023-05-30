@@ -12,5 +12,5 @@
 
 | **Sprint** | **Scrum Asignado** 👨‍💻 |
 | ------------- |:-------------:|
-| Semana 8 | *---------* |
+| Semana 7 | *Nicolas Segovia* |
 <br>
