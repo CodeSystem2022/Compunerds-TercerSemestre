@@ -13,8 +13,15 @@ nombreCompleto(){
 
 console.log(empleado1.nombreCompleto());
 
+class Empleado extends Persona{
 
-// 7.2 Sobreescritura - Alumno:
 
+
+    // 7.2 Sobreescritura - Alumno: Giuliana Dealbera Etchechoury
+    nombreCompleto(){
+        return super.nombreCompleto() + ', ' + this._departamento;
+    }
+}
+console.log(empleado1.nombreCompleto());
 
 // 7.3 Clase Object, toString, sobreescritura y Polimorfismo - Alumno:
