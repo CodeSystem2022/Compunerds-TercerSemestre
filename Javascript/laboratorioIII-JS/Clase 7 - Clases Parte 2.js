@@ -5,7 +5,13 @@ Team: CompuNerds
 Scrum Master: Nicolas Segovia
 */
 
-// 7.1 Heredar métodos - Alumno:
+// 7.1 Heredar métodos - Alumno: Kevin Sosa
+
+nombreCompleto(){
+    return this._nombre+' '+this._apellido;
+}
+
+console.log(empleado1.nombreCompleto());
 
 
 // 7.2 Sobreescritura - Alumno:
