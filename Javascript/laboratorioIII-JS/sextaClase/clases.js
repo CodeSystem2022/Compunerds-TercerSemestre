@@ -2,13 +2,18 @@ class Persona {
   //clase padre
 
   //8.2 Atributos estáticos
-  static contadorObjetosPersona = 0;
+  //static contadorObjetosPersona = 0;
+  //8.4 Uso de la palabra static:
+  static contadorPersonas=0;
+  //8.3 Atributos estáticos vs No estáticos
+  //email="Valor default email";
 
   constructor(nombre, apellido) {
     this._nombre = nombre;
     this._apellido = apellido;
-    Persona.contadorObjetosPersona++;
-    console.log("Se incrementa el contador; "+ Persona.contadorObjetosPersona);
+    this.idPersona= ++Persona.contadorPersonas;
+    //Persona.contadorObjetosPersona++;
+    //console.log("Se incrementa el contador; "+ Persona.contadorObjetosPersona);
   }
   get nombre() {
     return this._nombre;
@@ -24,7 +29,7 @@ class Persona {
   }
   // 7.1 Heredar métodos - Alumno: Kevin Sosa
   nombreCompleto() {
-    return this._nombre + " " + this._apellido;
+    return this.idPersona+" "+this._nombre + " " + this._apellido;
   }
 
   //7.3 Clase Object, toString,sobreescritura y Polimorfismo
@@ -92,5 +97,13 @@ Empleado.saludar();
 Empleado.saludar2(empleado1);
 
 //console.log(persona1.contadorObjetosPersona); undefined
-console.log(Persona.contadorObjetosPersona);
-console.log(Empleado.contadorObjetosPersona);
+//console.log(Persona.contadorObjetosPersona);
+//console.log(Empleado.contadorObjetosPersona);
+
+//accedemos a los valores no estaticos
+console.log(persona1.email)
+console.log(empleado1.email);
+//console.log(Persona.email)  no se puede acceder desde la clase porque no es estatic 
+
+console.log(persona1.toString());
+console.log(empleado1.toString());
