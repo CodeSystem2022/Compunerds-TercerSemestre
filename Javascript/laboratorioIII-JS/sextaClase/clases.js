@@ -36,6 +36,10 @@ class Empleado extends Persona {
   set departamento(departamento) {
     this._departamento = departamento;
   }
+     // 7.2 Sobreescritura - Alumno: Giuliana Dealbera Etchechoury
+     nombreCompleto(){
+      return super.nombreCompleto() + ', ' + this._departamento;
+  }
 }
 
 let persona1 = new Persona("Martin", "Perez");
