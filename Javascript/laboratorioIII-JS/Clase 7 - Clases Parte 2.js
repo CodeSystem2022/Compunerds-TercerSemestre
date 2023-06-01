@@ -24,4 +24,12 @@ class Empleado extends Persona{
 }
 console.log(empleado1.nombreCompleto());
 
-// 7.3 Clase Object, toString, sobreescritura y Polimorfismo - Alumno:
+// 7.3 Clase Object, toString, sobreescritura y Polimorfismo- Alumno: Giuliana Paola Diaz Luna
+
+// Object.prototype.toString // esta es la manera de acceder a atributos y metodos de manera dinamica
+// Sobrescribiendo el metodo de la clase padre (object) de clase persona
+toString(){ // regresa un string
+    return this.nombreCompleto();
+}
+console.log(empleado1.toString()); // se ejecuta el metodo de la clase hija
+console.log(persona1.toString()); // se ejecuta el metodo de la clase padre
