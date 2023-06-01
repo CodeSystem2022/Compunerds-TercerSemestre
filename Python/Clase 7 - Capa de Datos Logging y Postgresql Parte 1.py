@@ -67,7 +67,14 @@ if __name__ == '__main__':
     log.error('Mensaje a nivel error')
     log.warning('Mensaje a nivel critical')
     
-# 7.3 Manejo de logging: Parte 2 - Alumno:
+# 7.4 Manejo de logging: Parte 2 - Alumno: Kiara Castañeda
+log.basicConfig(level=log.DEBUG,
+                format='%(asctime)s:%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
+                datefmt='%I:%M:%S %P',
+                handlers=[
+                    log.FileHandler('capa_datos.log'),
+                    log.StreamHandler()
+                ])
 
 
 # 7.5 Video de otro proyecto llamado: Partículas - Alumno:
