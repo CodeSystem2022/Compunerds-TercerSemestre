@@ -16,6 +16,10 @@ class Persona {
   set apellido(apellido) {
     this._apellido = apellido;
   }
+  // 7.1 Heredar métodos - Alumno: Kevin Sosa
+  nombreCompleto() {
+    return this._nombre+" "+this._apellido;
+  }
 }
 
 class Empleado extends Persona {
@@ -41,5 +45,6 @@ persona1.nombre = "Juan";
 persona1.apellido = "Mar";
 console.log(persona1.nombre);
 console.log(persona1.apellido);
-let persona2= new Empleado("Marcelo","Gimenez","Sistemas")
-console.log(persona2)
+let empleado1= new Empleado("Marcelo","Gimenez","Sistemas")
+console.log(empleado1)
+console.log(empleado1.nombreCompleto());
