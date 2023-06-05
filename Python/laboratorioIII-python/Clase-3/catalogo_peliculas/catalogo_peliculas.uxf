@@ -9,7 +9,7 @@
 +__str__()
 --
 Responsibilidades
---Representa un objeto pelicula</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>160</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>60</y><w>260</w><h>280</h></coordinates><panel_attributes>servicio
+--Representa un objeto pelicula</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>150</y><w>110</w><h>40</h></coordinates><panel_attributes>&gt;&gt;agrega&gt;&gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>60</y><w>260</w><h>280</h></coordinates><panel_attributes>servicio
 --
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>90</y><w>210</w><h>190</h></coordinates><panel_attributes>CatalogoPeliculas
 --
