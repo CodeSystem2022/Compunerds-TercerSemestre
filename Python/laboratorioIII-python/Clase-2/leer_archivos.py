@@ -4,9 +4,14 @@ archivo = open('prueba.txt', 'r', encoding='utf-8')
 # print(archivo.read(5))#muestra las 5 primeras letras de la primer palabra
 print(archivo.readline())  # lee la linea completa
 
+##vamos a iterar el archivo, cada una de las lineas
+##for linea in archivo:
+    ##print(linea) ##iteramos todos los elementos del archivo
+print(archivo.readlines()[3])##accedemos al archivo como si fuera una lista
+
 #anexamos informacion,copiamos a otro
 archivo2=open('copia.txt','a',encoding='utf8')
 archivo2.write(archivo.read())
 archivo.close()#cerramos el primer archivo
 archivo2.close()#cerramos el segundo aechivo
-print('Se ha terminado el proceso de leer y copiar archivos')
+print('Se ha terminado el proceso de leer y copiar archivos\n')
