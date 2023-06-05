@@ -10,10 +10,21 @@ class Persona {
   //8.3 Atributos estáticos vs No estáticos
   //email="Valor default email";
 
+  //8.5 Creación de constantes estáticas
+  static get MAX_OBJ() {
+    //este metodo simula una constante
+    return 3;
+  }
+
   constructor(nombre, apellido) {
     this._nombre = nombre;
     this._apellido = apellido;
-    this.idPersona = ++Persona.contadorPersonas;
+    if(Persona.contadorPersonas < Persona.MAX_OBJ){
+      this.idPersona = ++Persona.contadorPersonas;
+    }
+    else{
+      console.log("Se ha superado el maximo de objetos permitidos")
+    }
     //Persona.contadorObjetosPersona++;
     //console.log("Se incrementa el contador; "+ Persona.contadorObjetosPersona);
   }
@@ -54,7 +65,6 @@ class Persona {
   }
 }
 
-
 let persona1 = new Persona("Martin", "Perez");
 console.log(persona1.nombre);
 console.log(persona1.apellido);
@@ -71,15 +81,19 @@ console.log(persona1.toString()); //se trabaja con el metodo de la clase padre.
 Persona.saludar(); // se ejecuta correctamente
 Persona.saludar2(persona1);
 
-
 //console.log(persona1.contadorObjetosPersona); undefined
 //console.log(Persona.contadorObjetosPersona);
 //console.log(Empleado.contadorObjetosPersona);
 
 //accedemos a los valores no estaticos
-console.log(persona1.email);
+//console.log(persona1.email);
 //console.log(Persona.email)  no se puede acceder desde la clase porque no es estatic
 
 console.log(persona1.toString());
 
+console.log(Persona.MAX_OBJ);
+//Persona.MAX_OBJ=19 // No se puede modificar ni alterar
+
+let persona4 = new Persona("Franco","Diaz");
+console.log(persona4.toString());
 export default Persona;
