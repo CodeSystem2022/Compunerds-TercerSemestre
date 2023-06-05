@@ -10,7 +10,7 @@ class CatalogoPeliculas:
             archivo.write(f'{pelicula.nombre}\n')
 
     @classmethod
-    def listar_epliculas(cls):
+    def listar_peliculas(cls):
         with open(cls.ruta_archivo, 'r',encoding='utf-8') as archivo:
             print(f'Catalogo de peliculas'.center(50, '-'))
             print(archivo.read())
