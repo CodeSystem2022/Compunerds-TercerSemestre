@@ -10,8 +10,8 @@
 
 <h2> 🗓️ Organización por Sprint: </h2>
 
-| **Sprint** | **Scrum Asignado** 👨‍💻 |
-| ------------- |:-------------:|
-| Semana 7 | *Nicolas Segovia*
-| Semana 8 | *Kevin Sosa*
+| **Sprint** | **Scrum Asignado** 👨‍💻 | **JavaScript** <img height=20 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> | **Python** <img height=20 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />  | **Java** <img height=20 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|
+| Semana 7 | *Nicolas Segovia* | *Todos* | *Todos* | *Todos*
+| Semana 8 | *Kevin Sosa* | *Carla Faes* | *Nicolas Segovia* | *Giuliana Dealbera*
 <br>
