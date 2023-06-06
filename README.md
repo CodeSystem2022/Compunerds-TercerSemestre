@@ -14,4 +14,5 @@
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|
 | Semana 7 | *Nicolas Segovia* | *Todos* | *Todos* | *Todos*
 | Semana 8 | *Kevin Sosa* | *Carla Faes* | *Nicolas Segovia* | *Giuliana Dealbera*
+| Semana 9 | *Carla Faes* | *Giuliana Dealbera* | *Kevin Sosa* | *Nicolas Segovia*
 <br>
