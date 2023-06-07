@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>590</w><h>680</h></coordinates><panel_attributes>catalogo_peliculas
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>60</y><w>260</w><h>280</h></coordinates><panel_attributes>dominio
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>100</y><w>210</w><h>190</h></coordinates><panel_attributes>Pelicula
+--
+-nombre:str
+--
++__str__()
+--
+Responsibilidades
+--Representa un objeto pelicula</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>150</y><w>110</w><h>40</h></coordinates><panel_attributes>&gt;&gt;agrega&gt;&gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>60</y><w>260</w><h>280</h></coordinates><panel_attributes>servicio
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>90</y><w>210</w><h>190</h></coordinates><panel_attributes>CatalogoPeliculas
+--
++ruta_archivo: str &lt;&lt;static&gt;&gt;
+--
++agregar_pelicula(Pelicula) &lt;&lt;static&gt;&gt;
++listar_peliculas() &lt;&lt;static&gt;&gt;
++eliminar()&lt;&lt;static&gt;&gt;
+--
+Responsibilidades:
+--Realizar las operaciones sobre el archivo de peliculas.txt</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>390</y><w>210</w><h>140</h></coordinates><panel_attributes>test_catalogo_peliculas.py
+--
+Responsabilidades:
+--Contiene un menu con 4 opciones:
+1)Agregar pelicula
+2)Listar peliculas
+3)Eliminar archivo de peliculas
+4)Salir</panel_attributes><additional_attributes></additional_attributes></element></diagram>
