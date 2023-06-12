@@ -1,1 +1,42 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLObject</id><coordinates><x>10</x><y>0</y><w>740</w><h>710</h></coordinates><panel_attributes>Proyecto Ventas
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>50</y><w>210</w><h>240</h></coordinates><panel_attributes>Orden
+--
+idOrden:number
+producto[]:Producto
+contadorProductosAgregados:number
+contadorOrdenes:number
+MAX_PRODUCTOS: number=5
+--
+Orden()
+agregarProducto(producto)
+calcularTotal():number
+mostrarOrden()
+--
+Responsabilidades
+--Crear objetos Orden
+--Administrar los productos
+ de una orden</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>150</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;.&gt;</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>60</y><w>180</w><h>140</h></coordinates><panel_attributes>Ventas Test
+--
+Esto no es una clase
+Es la prueba de creacion
+de objetos Producto y Orden
+--
+Responsabilidades
+--Ejecutar la prueba de
+ la aplicacion de Ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>280</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>390</y><w>210</w><h>240</h></coordinates><panel_attributes>Producto
+--
+idProducto:number
+nombre:string
+precio:number
+contadorProductos:number
+--
+Producto()
+getIdProducto():number
+getNombre(nombre):string
+setNombre(nombre)
+getPrecio():number
+setPrecio(precio)
+toString():string
+--
+Responsabilidades
+--Crear objetos de tipo Producto</panel_attributes><additional_attributes></additional_attributes></element></diagram>
