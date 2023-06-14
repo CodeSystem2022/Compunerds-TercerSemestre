@@ -1,10 +1,10 @@
 import psycopg2 #esto es para poder conectarnos a Postgres
 conexion = psycopg2.connect(
     user='postgres',
-    password='4271369.',
-    host='127.0.0.1',
-    port='5432',
-    database='test_bd'
+    password='admin',
+    host='localhost',
+    port='27017',
+    database='test_db'
 )
 try:
     with conexion:
