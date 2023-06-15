@@ -15,4 +15,5 @@
 | Semana 7 | *Nicolas Segovia* | *Todos* | *Todos* | *Todos* | *No Implementado*
 | Semana 8 | *Kevin Sosa* | *Carla Faes* | *Nicolas Segovia* | *Giuliana Dealbera* | *Kiara Castañeda*
 | Semana 9 | *Carla Faes* | *Giuliana Dealbera* | *Kevin Sosa* | *Nicolas Segovia* | *Kiara Castañeda*
+| Semana 10 | *Giuliana Dealbera* | *Nicolas Segovia* | *Carla Faes* | *Kevin Sosa* | *Kiara Castañeda*
 <br>
