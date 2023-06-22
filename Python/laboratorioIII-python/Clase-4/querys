@@ -1,0 +1,5 @@
+--select * from persona where id_persona  in (1,2)
+--insert into persona(nombre,apellido,email) values ('susana','lara','slara@gmail.com')
+select * from persona
+--update persona set nombre='Juan' where id_persona=1
+--delete from persona where id_persona=1
