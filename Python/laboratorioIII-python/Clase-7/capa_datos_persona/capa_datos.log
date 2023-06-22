@@ -1,0 +1,5 @@
+01-31-16 AM:DEBUG [logger_base.py:14] Mensaje a nivel debug
+01-31-16 AM:INFO [logger_base.py:15] Mensaje a nivel info
+01-31-16 AM:WARNING [logger_base.py:16] Mensaje a nivel warning
+01-31-16 AM:ERROR [logger_base.py:17] Mensaje a nivel error
+01-31-16 AM:CRITICAL [logger_base.py:18] Mensaje a nivel critical
