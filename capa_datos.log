@@ -1,0 +1,54 @@
+01-54-44 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+01-56-22 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+01-56-36 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+01-56-36 AM:DEBUG [Persona.py:64] 
+            Id Persona: 2,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+01-58-07 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+01-58-07 AM:DEBUG [Persona.py:64] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+01-59-42 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+01-59-42 AM:DEBUG [Persona.py:64] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+01-59-42 AM:DEBUG [Persona.py:66] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
