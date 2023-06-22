@@ -25,3 +25,32 @@ def id_persona(self):
 def id_persona(self, id_persona):
     self.id_persona = id_persona
 
+
+@property
+def nombre(self):
+    return self.nombre
+
+
+@nombre.setter
+def nombre(self, nombre):
+    self.nombre = nombre
+
+
+@property
+def apellido(self):
+    return self.apellido
+
+
+@apellido.setter
+def apellido(self, apellido):
+    self.apellido = apellido
+
+
+@property
+def email(self):
+    return self.email
+
+
+@email.setter
+def email(self, email):
+    self.email = email
