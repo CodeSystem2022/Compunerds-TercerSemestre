@@ -1,12 +1,12 @@
 import psycopg2 as bd #esto es para poder conectarnos a Postgres
 conexion = bd.connect(
-    user='postgres',
-    password='4271369.',
-    host='127.0.0.1',
+    user='carla',
+    password='12345',
+    host='localhost',
     port='5432',
     database='test_bd')
 try:
-    #conexion.autocommit= False // esto directament eno deberia estar
+    #conexion.autocommit= False // esto directamente no deberia estar
     cursor = conexion.cursor()
     sentencia= 'INSERT INTO persona(nombre, apellido, email) VALUES (%s, %s, %s)'
     valores= ('maria', 'Esparza', 'mesparza@mail.com')
