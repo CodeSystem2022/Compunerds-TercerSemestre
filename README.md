@@ -16,4 +16,5 @@
 | Semana 8 | *Kevin Sosa* | *Carla Faes* | *Nicolas Segovia* | *Giuliana Dealbera* 
 | Semana 9 | *Carla Faes* | *Giuliana Dealbera* | *Kevin Sosa* | *Nicolas Segovia* 
 | Semana 10 | *Giuliana Dealbera* | *Nicolas Segovia* | *Carla Faes* | *Kevin Sosa* 
+| Semana 11 | *Nicolas Segovia* | *No hubo Clases* | *No hubo Clases* | *Todos* 
 <br>
