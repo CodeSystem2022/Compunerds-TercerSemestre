@@ -43,8 +43,8 @@ class PersonaDAO:
                 
     @classmethod
     def actualizar(cls, persona):
-        with Conexion.obtenerConexion():
-            with Conexion.obtenerCursor() as cursor:
+        with Conexion.obtenerConexion() as conn:
+            with Conexion.obtenerCursor(conn) as cursor:
                 valores = (persona.nombre , persona.apellido , persona.email , persona.id_persona)
                 cursor.execute(cls._ACTUALIZAR, valores)
                 log.debug(f'Persona actualizada : {persona}')
@@ -68,9 +68,9 @@ if __name__ == "__main__":
         
      
     # Insertar un registro
-    persona1 = Persona(nombre='Homero' , apellido='Ramos' , email='hramos@mail.com')
-    personas_insertadas = PersonaDAO.insertar(persona1)
-    log.debug(f'Personas insertadas: {personas_insertadas}')
+    # persona1 = Persona(nombre='Homero' , apellido='Ramos' , email='hramos@mail.com')
+    # personas_insertadas = PersonaDAO.insertar(persona1)
+    # log.debug(f'Personas insertadas: {personas_insertadas}')
     
     
     # Eliminar un registro
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # log.debug(f'Personas eliminadas: {personas_eliminadas}')
     
     #Actualizar registro
-    #persona1 = Persona(1, 'Juan Jose' , 'Pena' , 'jjpena@mail.com')
-    #personas_actualizadas = PersonaDAO.actualizar(persona1)
-    #log.debug(f'Personas actualizadas : {personas_actualizadas}'
+    persona1 = Persona(1, 'Juan Jose' , 'Pena' , 'jjpena@mail.com')
+    personas_actualizadas = PersonaDAO.actualizar(persona1)
+    log.debug(f'Personas actualizadas : {personas_actualizadas}')
     

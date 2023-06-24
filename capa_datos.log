@@ -187,3 +187,12 @@
             Email: hramos@mail.com,
         
 07-53-49 PM:DEBUG [persona_dao.py:73] Personas insertadas: 1
+08-04-29 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f1db5556980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+08-04-29 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7f1db4378a90; closed: 0>
+08-04-29 PM:DEBUG [persona_dao.py:50] Persona actualizada : 
+            Id Persona: 1,
+            Nombre: Juan Jose,
+            Apellido: Pena,
+            Email: jjpena@mail.com,
+        
+08-04-29 PM:DEBUG [persona_dao.py:84] Personas actualizadas : 0
