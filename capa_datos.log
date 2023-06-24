@@ -112,3 +112,57 @@
             Email: None,
         
 06-21-47 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fdb55faa0c0; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-34-42 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fbf1b4f6980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-35-23 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fbe225aa0c0; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-35-23 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7fbe225816c0; closed: 0>
+07-35-34 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fe0ca32e980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-38-07 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f96d0b12980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-38-07 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7f96cf760a90; closed: 0>
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 2,
+            Nombre: Carla,
+            Apellido: faes,
+            Email: cfaes@gmail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 3,
+            Nombre: Ivonne,
+            Apellido: lara,
+            Email: slara@gmail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 4,
+            Nombre: Carlos,
+            Apellido: Lara,
+            Email: clara@mail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 5,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@mail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 6,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: cuencam@mail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 8,
+            Nombre: Jorge,
+            Apellido: Prol,
+            Email: jprol@mail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 9,
+            Nombre: Alex,
+            Apellido: Rojas,
+            Email: arojas@mail.com,
+        
+07-38-07 PM:DEBUG [persona_dao.py:40] 
+            Id Persona: 10,
+            Nombre: maria,
+            Apellido: Esparza,
+            Email: mesparza@mail.com,
+        

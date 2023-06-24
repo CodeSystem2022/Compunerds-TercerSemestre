@@ -29,7 +29,7 @@ class Conexion:
             return cls._conexion
 
     @classmethod
-    def obtenerCursor(cls):
+    def obtenerCursor(cls,conexion):
         if cls._cursor is None:
             try:
                 cls._cursor = cls.obtenerConexion().cursor()
@@ -44,3 +44,4 @@ class Conexion:
 
 if __name__ == '__main__':
     Conexion.obtenerConexion()
+    Conexion.obtenerCursor()
