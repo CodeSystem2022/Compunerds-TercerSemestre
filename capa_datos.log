@@ -52,3 +52,63 @@
             Apellido: None,
             Email: None,
         
+12-02-36 AM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+12-02-36 AM:DEBUG [Persona.py:64] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+12-02-36 AM:DEBUG [Persona.py:66] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
+06-13-25 PM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+06-13-25 PM:DEBUG [Persona.py:64] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+06-13-25 PM:DEBUG [Persona.py:66] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
+06-16-32 PM:DEBUG [logger_base.py:14] Mensaje a nivel debug
+06-16-32 PM:INFO [logger_base.py:15] Mensaje a nivel info
+06-16-32 PM:WARNING [logger_base.py:16] Mensaje a nivel warning
+06-16-32 PM:ERROR [logger_base.py:17] Mensaje a nivel error
+06-16-32 PM:CRITICAL [logger_base.py:18] Mensaje a nivel critical
+06-17-03 PM:DEBUG [Persona.py:62] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com,
+        
+06-17-03 PM:DEBUG [Persona.py:64] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: jlepez@gmail.com,
+        
+06-17-03 PM:DEBUG [Persona.py:66] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
+06-21-47 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fdb55faa0c0; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
