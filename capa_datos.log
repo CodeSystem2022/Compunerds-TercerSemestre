@@ -196,3 +196,21 @@
             Email: jjpena@mail.com,
         
 08-04-29 PM:DEBUG [persona_dao.py:84] Personas actualizadas : 0
+08-09-48 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f17476de980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+08-09-48 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7f17462c0a90; closed: 0>
+08-09-48 PM:DEBUG [persona_dao.py:59] Los objetos eliminados  son: 
+            Id Persona: 8,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
+08-09-48 PM:DEBUG [persona_dao.py:79] Personas eliminadas: 1
+08-10-05 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f9f84d22980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+08-10-05 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7f9f83908a90; closed: 0>
+08-10-05 PM:DEBUG [persona_dao.py:59] Los objetos eliminados  son: 
+            Id Persona: 2,
+            Nombre: None,
+            Apellido: None,
+            Email: None,
+        
+08-10-05 PM:DEBUG [persona_dao.py:79] Personas eliminadas: 1
