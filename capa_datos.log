@@ -166,3 +166,24 @@
             Apellido: Esparza,
             Email: mesparza@mail.com,
         
+07-47-09 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f8087f56980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-48-58 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f4780966980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-51-27 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f305a5aa980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-52-22 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7f19d82e6980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-52-22 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7f19d6ed0a90; closed: 0>
+07-52-22 PM:DEBUG [persona_dao.py:41] Persona Insertada : 
+            Id Persona: None,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promero@mail.com,
+        
+07-52-22 PM:DEBUG [persona_dao.py:73] Personas insertadas: 1
+07-53-49 PM:DEBUG [conexion.py:23] Conexion exitosa:<connection object at 0x7fd4ce516980; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+07-53-49 PM:DEBUG [conexion.py:36] Se abrio correctamente el cursor: <cursor object at 0x7fd4cd0f8a90; closed: 0>
+07-53-49 PM:DEBUG [persona_dao.py:41] Persona Insertada : 
+            Id Persona: None,
+            Nombre: Homero,
+            Apellido: Ramos,
+            Email: hramos@mail.com,
+        
+07-53-49 PM:DEBUG [persona_dao.py:73] Personas insertadas: 1
