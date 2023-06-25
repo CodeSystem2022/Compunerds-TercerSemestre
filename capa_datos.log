@@ -264,3 +264,7 @@
             Apellido: Ramos,
             Email: hramos@mail.com,
         
+08-57-15 PM:DEBUG [conexion.py:64] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fc75b4d6c20>
+08-58-46 PM:DEBUG [conexion.py:64] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7ff26a61ecb0>
+08-58-46 PM:DEBUG [conexion.py:35] Conexion obtenida del pool:<connection object at 0x7ff26b7aa0c0; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
+08-58-46 PM:DEBUG [conexion.py:35] Conexion obtenida del pool:<connection object at 0x7ff26b7aa200; dsn: 'user=carla password=xxx dbname=test_bd host=localhost port=5432', closed: 0>
