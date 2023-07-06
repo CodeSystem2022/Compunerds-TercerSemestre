@@ -68,9 +68,20 @@ class Conexion:
                 sys.exit()
         else:
             return cls._pool
+# clase 11
+    @classmethod
+    def liberarConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion)
+        log.debug(f'Regresamos la conexión del pool: {conexion}')
+
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall()
 
 if __name__ == '__main__':
     # Conexion.obtenerConexion()
     # Conexion.obtenerCursor()
     conexion1=Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion1)
     conexion2=Conexion.obtenerConexion()
+    Conexion.liberarConexion(conexion2)
